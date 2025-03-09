@@ -23,7 +23,8 @@ class Home extends Component {
     const {inputVal}=this.state
     if (inputVal!==''){
       this.setState(prevState=>({
-        taskList:[...prevState.taskList,{id:uuidv4(),task:inputVal}]
+        taskList:[...prevState.taskList,{id:uuidv4(),task:inputVal}],
+        inputVal:''
       }))
     }
     
