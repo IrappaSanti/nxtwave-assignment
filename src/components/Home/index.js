@@ -39,12 +39,12 @@ class Home extends Component {
   }
 
   render() {
-    const {taskList}=this.state
+    const {taskList,inputVal}=this.state
     return (
       <div className="main">
         <form className="formDiv"  onSubmit={this.addTask}>
           <h1 className="head">Task Tracker</h1>
-          <input placeholder="Add a task..." className="inField" onChange={this.onChangeInput} />
+          <input placeholder="Add a task..." value={inputVal} className="inField" onChange={this.onChangeInput} />
           <button className="btn" type="submit">Add Task</button>
         </form>
         <ul className="listItem">
