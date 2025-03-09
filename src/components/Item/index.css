@@ -1,0 +1,11 @@
+.item{
+    background-color: #ffffff;
+    width: 45vw;
+    height: 10vh;
+    list-style-type: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

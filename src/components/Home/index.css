@@ -1,0 +1,49 @@
+.main{
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.head{
+    color: brown;
+    font-family: Roboto;
+}
+.inField{
+    height: 32px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10x;
+    padding-left: 20px;
+}
+.btn{
+    height: 36px;
+    width: 120px;
+    border: 0px solid;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.formDiv{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.listItem{
+    background-color: #ffffff;
+}
+.item{
+    background-color: #ffffff;
+    width: 45vw;
+    height: 10vh;
+    list-style-type: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
